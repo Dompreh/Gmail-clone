@@ -1,0 +1,57 @@
+.sendmessage{
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    background-color: #404040;
+    width: 40%;
+    height: 45%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    max-width: 350px;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 5px 7px 0 rgba(0, 0, 0, 0.24);
+}
+.sendmessage_header{
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
+.sendmessage_header > h3{
+    color:whitesmoke;
+    font-size:13px;
+}
+.sendmessage_btn{
+background-color: #3079ed !important;
+text-transform: capitalize !important;
+margin: 15px !important;
+}
+.sendmessage_close{
+    cursor: pointer;
+}
+.sendmessage > form{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.sendmessage > form > input{
+    height: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+}
+.sendmessage_input{
+    flex:1;
+    /* overflow-wrap: break-word; */
+}
+.error{
+    background-color: white;
+    color: red;
+    text-align: right;
+    padding: 0px;
+    font-size: 13px;
+}
